@@ -38,9 +38,9 @@ a:active {
 .container {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    width: 1440px;
+    
 }
 
 .bar-header {
@@ -48,7 +48,7 @@ a:active {
     color: #FFFF;
     background-color: #E5E000;
     height: 200px;
-    width: 1440px;
+    width: 100%;
     justify-content: flex-start;
     align-items: center;
 }
@@ -58,14 +58,14 @@ a:active {
     color: #FFFF;
     background-color: #E5E000;
     height: 100px;
-    width: 1440px;
+    width: 100%;
     justify-content: flex-start;
     align-items: center;
 }
 
 .container-about {
     display: flex;
-    width: 1440px;
+    width: 100%;
     justify-content: flex-start;
     align-items: center;
 }
@@ -76,12 +76,12 @@ a:active {
     color: #FFFF;
     background-color: #E5E000;
     margin-top: 100px;
-    width: 1440px;
+    width: 100%;
 }
 
 .footer {
     display: flex;
-    width: 1440px;
+    width: 100%;
     justify-content: space-around;
 }
 
