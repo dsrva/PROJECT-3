@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+
+
+.bg {
+    display: flex;
     background-image: url("images/project3.png");
-    background-position-y: 200px;
-    background-position-x: center;
-    background-size: auto 1080px;
-    background-repeat: no-repeat;
-}
+    width: 1440px;
+    height: 1080px;
+  }
+
 
 h1, p {
     font-size: 40px;
@@ -32,8 +34,6 @@ a:hover {
 a:active {
     color:#E5E000;
 }
-
-
 
 .container {
     display: flex;
@@ -59,7 +59,6 @@ a:active {
     background-color: #E5E000;
     height: 100px;
     width: 1440px;
-    margin-top:1080px;
     justify-content: flex-start;
     align-items: center;
 }
