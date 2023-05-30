@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/project3.png");
+    background-position-y: 200px;
+    background-position-x: center;
+    background-size: auto 1080px;
+    background-repeat: no-repeat;
+}
+
+h1, p {
+    font-size: 40px;
+    margin: 50px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: rgb(185, 51, 185)
+}
+
+a:hover {
+    color: rgb(53, 174, 234)
+}
+
+a:active {
+    color:#E5E000;
+}
+
+
+
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar-header {
+    display: flex;
+    color: #FFFF;
+    background-color: #E5E000;
+    height: 200px;
+    width: 1440px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bar-info {
+    display: flex;
+    color: #FFFF;
+    background-color: #E5E000;
+    height: 100px;
+    width: 1440px;
+    margin-top:1080px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-about {
+    display: flex;
+    width: 1440px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.bar-footer {
+    display: flex;
+    color: #FFFF;
+    background-color: #E5E000;
+    margin-top: 100px;
+    width: 1440px;
+}
+
+.footer {
+    display: flex;
+    width: 1440px;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    flex: 2;
+}
